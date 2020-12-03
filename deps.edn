@@ -1,4 +1,7 @@
-{:deps {org.clojure/clojurescript {:mvn/version "1.10.773"}}
+{:deps {org.clojure/clojurescript {:mvn/version "1.10.773"}
+        com.bhauman/figwheel-main {:mvn/version "0.2.12"}
+        com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
+        cljsjs/react {:mvn/version "17.0.1-0"}}
 
-:paths ["src" "target" "resources"]
+:paths ["src"]
 }

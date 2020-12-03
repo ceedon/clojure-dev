@@ -13,6 +13,10 @@ RUN apt-get update \
 # Install git, process tools, lsb-release (common in install instructions for CLIs)
 RUN apt-get -y install git procps lsb-release
 
+RUN curl -sL https://deb.nodesource.com/setup_15.x | bash -
+RUN apt-get install -y nodejs
+RUN npm install source-map-support
+
 # Clean up
 RUN apt-get autoremove -y \
     && apt-get clean -y \

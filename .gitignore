@@ -6,6 +6,9 @@
 # calva REPL port
 .nrepl-port
 
+# clojure cache. Can interfere with container builds
+.cpcache
+
 # User-specific files
 *.suo
 *.user

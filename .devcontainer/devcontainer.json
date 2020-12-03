@@ -6,5 +6,6 @@
 	],
 	"settings":{
 		"calva.jokerPath": "/usr/bin"
-	}
+	},
+	"forwardPorts": [9000, 9500]
 }
